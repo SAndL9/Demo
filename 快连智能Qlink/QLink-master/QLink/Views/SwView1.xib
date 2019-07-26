@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <view contentMode="scaleToFill" id="V4k-nW-ZUh" customClass="SwView1">
+            <rect key="frame" x="0.0" y="0.0" width="106" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4jc-5D-Ukv" customClass="OrderButton">
+                    <rect key="frame" x="20" y="24" width="66" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="sw1_top_off.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="sw1_top_on.png"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="V4k-nW-ZUh" eventType="touchUpInside" id="L5V-Pa-QnA"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="R6i-vf-FLT" customClass="OrderButton">
+                    <rect key="frame" x="20" y="68" width="66" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="sw1_bottom_off.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="sw1_bottom_on.png"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="V4k-nW-ZUh" eventType="touchUpInside" id="Yjy-0I-nyu"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sw1_nav.png" id="hc1-sW-HM3">
+                    <rect key="frame" x="20" y="0.0" width="66" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="照明" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LP8-hD-3Pa">
+                    <rect key="frame" x="20" y="0.0" width="66" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnOff1" destination="R6i-vf-FLT" id="zE2-i8-QbK"/>
+                <outlet property="btnOn1" destination="4jc-5D-Ukv" id="FAz-b1-8ab"/>
+                <outlet property="lTitle1" destination="LP8-hD-3Pa" id="YCb-d9-xag"/>
+            </connections>
+        </view>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="usB-JL-OlL" customClass="SwView1">
+            <rect key="frame" x="0.0" y="0.0" width="106" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="W4A-BJ-9jD" customClass="OrderButton">
+                    <rect key="frame" x="20" y="24" width="66" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="sw3_top_off.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="sw3_top_on.png"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="usB-JL-OlL" eventType="touchUpInside" id="wjF-LZ-2lY"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MPO-bX-blE" customClass="OrderButton">
+                    <rect key="frame" x="20" y="68" width="66" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="sw3_bottom_off.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="sw3_bottom_on.png"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="usB-JL-OlL" eventType="touchUpInside" id="m5g-KQ-fOT"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sw1_nav.png" id="Mz2-3t-699">
+                    <rect key="frame" x="20" y="0.0" width="66" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="翻转" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Q96-nb-6O2">
+                    <rect key="frame" x="20" y="0.0" width="66" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnOff2" destination="MPO-bX-blE" id="c2t-Pd-wrE"/>
+                <outlet property="btnOn2" destination="W4A-BJ-9jD" id="DVq-D2-krE"/>
+                <outlet property="lTitle2" destination="Q96-nb-6O2" id="wTR-Ty-yUK"/>
+            </connections>
+        </view>
+        <view contentMode="scaleToFill" id="eF7-fH-uwW" customClass="SwView1">
+            <rect key="frame" x="0.0" y="0.0" width="106" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AGo-vj-IUd" customClass="OrderButton">
+                    <rect key="frame" x="20" y="24" width="66" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="sw2_top_off.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="sw2_top_on.png"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="eF7-fH-uwW" eventType="touchUpInside" id="mwQ-LO-Uwx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="RsZ-3q-RQN" customClass="OrderButton">
+                    <rect key="frame" x="20" y="68" width="66" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="sw2_bottom_off.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="sw2_bottom_on.png"/>
+                    <connections>
+                        <action selector="btnPressed:" destination="eF7-fH-uwW" eventType="touchUpInside" id="WNu-qn-HlG"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sw1_nav.png" id="TUV-yR-MK3">
+                    <rect key="frame" x="20" y="0.0" width="66" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点动" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bwq-Hq-C4A">
+                    <rect key="frame" x="20" y="0.0" width="66" height="24"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnOff3" destination="RsZ-3q-RQN" id="YQQ-D2-MDQ"/>
+                <outlet property="btnOn3" destination="AGo-vj-IUd" id="7wE-PI-3wY"/>
+                <outlet property="lTitle3" destination="bwq-Hq-C4A" id="pW6-4e-KsT"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="sw1_bottom_off.png" width="66" height="51"/>
+        <image name="sw1_bottom_on.png" width="66" height="51"/>
+        <image name="sw1_nav.png" width="66" height="24"/>
+        <image name="sw1_top_off.png" width="66" height="45"/>
+        <image name="sw1_top_on.png" width="66" height="45"/>
+        <image name="sw2_bottom_off.png" width="66" height="51"/>
+        <image name="sw2_bottom_on.png" width="66" height="51"/>
+        <image name="sw2_top_off.png" width="66" height="45"/>
+        <image name="sw2_top_on.png" width="66" height="45"/>
+        <image name="sw3_bottom_off.png" width="66" height="51"/>
+        <image name="sw3_bottom_on.png" width="66" height="51"/>
+        <image name="sw3_top_off.png" width="66" height="45"/>
+        <image name="sw3_top_on.png" width="66" height="45"/>
+    </resources>
+</document>

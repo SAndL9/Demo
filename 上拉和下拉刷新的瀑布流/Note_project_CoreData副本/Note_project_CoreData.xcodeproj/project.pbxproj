@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34C068FC1CDB60210092E7FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C068FB1CDB60210092E7FC /* main.m */; };
+		34C069051CDB60210092E7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C069031CDB60210092E7FC /* Main.storyboard */; };
+		34C069081CDB60210092E7FC /* Note_project_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 34C069061CDB60210092E7FC /* Note_project_CoreData.xcdatamodeld */; };
+		34C0690A1CDB60210092E7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C069091CDB60210092E7FC /* Assets.xcassets */; };
+		34C0690D1CDB60210092E7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C0690B1CDB60210092E7FC /* LaunchScreen.storyboard */; };
+		34C069201CDB60510092E7FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0691F1CDB60510092E7FC /* AppDelegate.m */; };
+		34C069231CDB61480092E7FC /* FolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C069221CDB61480092E7FC /* FolderViewController.m */; };
+		34C069261CDB61640092E7FC /* NoteListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C069251CDB61640092E7FC /* NoteListViewController.m */; };
+		34C0692C1CDB619F0092E7FC /* DetailNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0692B1CDB619F0092E7FC /* DetailNoteViewController.m */; };
+		34C0692F1CDB61A80092E7FC /* AddNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0692E1CDB61A80092E7FC /* AddNoteViewController.m */; };
+		34C069321CDB61D20092E7FC /* HeaderReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C069311CDB61D20092E7FC /* HeaderReusableView.m */; };
+		34C069351CDB621B0092E7FC /* FolderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C069341CDB621B0092E7FC /* FolderViewCell.m */; };
+		34C069381CDB622F0092E7FC /* AddFolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C069371CDB622F0092E7FC /* AddFolderView.m */; };
+		34C0693A1CDB62490092E7FC /* AddFolderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C069391CDB62490092E7FC /* AddFolderView.xib */; };
+		34C0694F1CDB64EA0092E7FC /* Folder+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C069481CDB64E90092E7FC /* Folder+CoreDataProperties.m */; };
+		34C069501CDB64EA0092E7FC /* Folder.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0694A1CDB64E90092E7FC /* Folder.m */; };
+		34C069511CDB64EA0092E7FC /* Note+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0694C1CDB64E90092E7FC /* Note+CoreDataProperties.m */; };
+		34C069521CDB64EA0092E7FC /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C0694E1CDB64EA0092E7FC /* Note.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34C068F71CDB60210092E7FC /* Note_project_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Note_project_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C068FB1CDB60210092E7FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34C069041CDB60210092E7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34C069071CDB60210092E7FC /* Note_project_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Note_project_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		34C069091CDB60210092E7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34C0690C1CDB60210092E7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34C0690E1CDB60210092E7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C0691E1CDB60510092E7FC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34C0691F1CDB60510092E7FC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34C069211CDB61480092E7FC /* FolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewController.h; sourceTree = "<group>"; };
+		34C069221CDB61480092E7FC /* FolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewController.m; sourceTree = "<group>"; };
+		34C069241CDB61640092E7FC /* NoteListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListViewController.h; sourceTree = "<group>"; };
+		34C069251CDB61640092E7FC /* NoteListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListViewController.m; sourceTree = "<group>"; };
+		34C0692A1CDB619F0092E7FC /* DetailNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailNoteViewController.h; sourceTree = "<group>"; };
+		34C0692B1CDB619F0092E7FC /* DetailNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailNoteViewController.m; sourceTree = "<group>"; };
+		34C0692D1CDB61A80092E7FC /* AddNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNoteViewController.h; sourceTree = "<group>"; };
+		34C0692E1CDB61A80092E7FC /* AddNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNoteViewController.m; sourceTree = "<group>"; };
+		34C069301CDB61D20092E7FC /* HeaderReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderReusableView.h; sourceTree = "<group>"; };
+		34C069311CDB61D20092E7FC /* HeaderReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderReusableView.m; sourceTree = "<group>"; };
+		34C069331CDB621B0092E7FC /* FolderViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderViewCell.h; sourceTree = "<group>"; };
+		34C069341CDB621B0092E7FC /* FolderViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderViewCell.m; sourceTree = "<group>"; };
+		34C069361CDB622F0092E7FC /* AddFolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFolderView.h; sourceTree = "<group>"; };
+		34C069371CDB622F0092E7FC /* AddFolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFolderView.m; sourceTree = "<group>"; };
+		34C069391CDB62490092E7FC /* AddFolderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddFolderView.xib; sourceTree = "<group>"; };
+		34C069471CDB64E90092E7FC /* Folder+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Folder+CoreDataProperties.h"; sourceTree = "<group>"; };
+		34C069481CDB64E90092E7FC /* Folder+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Folder+CoreDataProperties.m"; sourceTree = "<group>"; };
+		34C069491CDB64E90092E7FC /* Folder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Folder.h; sourceTree = "<group>"; };
+		34C0694A1CDB64E90092E7FC /* Folder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Folder.m; sourceTree = "<group>"; };
+		34C0694B1CDB64E90092E7FC /* Note+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Note+CoreDataProperties.h"; sourceTree = "<group>"; };
+		34C0694C1CDB64E90092E7FC /* Note+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Note+CoreDataProperties.m"; sourceTree = "<group>"; };
+		34C0694D1CDB64E90092E7FC /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		34C0694E1CDB64EA0092E7FC /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		34C069531CDB92910092E7FC /* Note_project_CoreData 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Note_project_CoreData 2.xcdatamodel"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34C068F41CDB60210092E7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C068EE1CDB60210092E7FC = {
+			isa = PBXGroup;
+			children = (
+				34C068F91CDB60210092E7FC /* Note_project_CoreData */,
+				34C068F81CDB60210092E7FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34C068F81CDB60210092E7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34C068F71CDB60210092E7FC /* Note_project_CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34C068F91CDB60210092E7FC /* Note_project_CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				34C069141CDB60380092E7FC /* App */,
+				34C069151CDB60380092E7FC /* Base */,
+				34C069161CDB60380092E7FC /* Category */,
+				34C069171CDB60380092E7FC /* Common */,
+				34C069181CDB60380092E7FC /* Helper */,
+				34C069191CDB60380092E7FC /* Modal */,
+				34C0691A1CDB60380092E7FC /* Resource */,
+				34C0691B1CDB60380092E7FC /* Vender */,
+				34C0691C1CDB60380092E7FC /* View */,
+				34C0691D1CDB60380092E7FC /* ViewController */,
+				34C069031CDB60210092E7FC /* Main.storyboard */,
+				34C069091CDB60210092E7FC /* Assets.xcassets */,
+				34C0690B1CDB60210092E7FC /* LaunchScreen.storyboard */,
+				34C0690E1CDB60210092E7FC /* Info.plist */,
+				34C069061CDB60210092E7FC /* Note_project_CoreData.xcdatamodeld */,
+				34C068FA1CDB60210092E7FC /* Supporting Files */,
+			);
+			path = Note_project_CoreData;
+			sourceTree = "<group>";
+		};
+		34C068FA1CDB60210092E7FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C068FB1CDB60210092E7FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34C069141CDB60380092E7FC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				34C0691E1CDB60510092E7FC /* AppDelegate.h */,
+				34C0691F1CDB60510092E7FC /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		34C069151CDB60380092E7FC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		34C069161CDB60380092E7FC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		34C069171CDB60380092E7FC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		34C069181CDB60380092E7FC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		34C069191CDB60380092E7FC /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				34C069471CDB64E90092E7FC /* Folder+CoreDataProperties.h */,
+				34C069481CDB64E90092E7FC /* Folder+CoreDataProperties.m */,
+				34C069491CDB64E90092E7FC /* Folder.h */,
+				34C0694A1CDB64E90092E7FC /* Folder.m */,
+				34C0694B1CDB64E90092E7FC /* Note+CoreDataProperties.h */,
+				34C0694C1CDB64E90092E7FC /* Note+CoreDataProperties.m */,
+				34C0694D1CDB64E90092E7FC /* Note.h */,
+				34C0694E1CDB64EA0092E7FC /* Note.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		34C0691A1CDB60380092E7FC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		34C0691B1CDB60380092E7FC /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		34C0691C1CDB60380092E7FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34C069301CDB61D20092E7FC /* HeaderReusableView.h */,
+				34C069311CDB61D20092E7FC /* HeaderReusableView.m */,
+				34C069331CDB621B0092E7FC /* FolderViewCell.h */,
+				34C069341CDB621B0092E7FC /* FolderViewCell.m */,
+				34C069361CDB622F0092E7FC /* AddFolderView.h */,
+				34C069371CDB622F0092E7FC /* AddFolderView.m */,
+				34C069391CDB62490092E7FC /* AddFolderView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34C0691D1CDB60380092E7FC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				34C069211CDB61480092E7FC /* FolderViewController.h */,
+				34C069221CDB61480092E7FC /* FolderViewController.m */,
+				34C069241CDB61640092E7FC /* NoteListViewController.h */,
+				34C069251CDB61640092E7FC /* NoteListViewController.m */,
+				34C0692A1CDB619F0092E7FC /* DetailNoteViewController.h */,
+				34C0692B1CDB619F0092E7FC /* DetailNoteViewController.m */,
+				34C0692D1CDB61A80092E7FC /* AddNoteViewController.h */,
+				34C0692E1CDB61A80092E7FC /* AddNoteViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34C068F61CDB60210092E7FC /* Note_project_CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34C069111CDB60210092E7FC /* Build configuration list for PBXNativeTarget "Note_project_CoreData" */;
+			buildPhases = (
+				34C068F31CDB60210092E7FC /* Sources */,
+				34C068F41CDB60210092E7FC /* Frameworks */,
+				34C068F51CDB60210092E7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Note_project_CoreData;
+			productName = Note_project_CoreData;
+			productReference = 34C068F71CDB60210092E7FC /* Note_project_CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34C068EF1CDB60210092E7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = lanouhn;
+				TargetAttributes = {
+					34C068F61CDB60210092E7FC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 34C068F21CDB60210092E7FC /* Build configuration list for PBXProject "Note_project_CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34C068EE1CDB60210092E7FC;
+			productRefGroup = 34C068F81CDB60210092E7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34C068F61CDB60210092E7FC /* Note_project_CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34C068F51CDB60210092E7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C0690D1CDB60210092E7FC /* LaunchScreen.storyboard in Resources */,
+				34C0690A1CDB60210092E7FC /* Assets.xcassets in Resources */,
+				34C0693A1CDB62490092E7FC /* AddFolderView.xib in Resources */,
+				34C069051CDB60210092E7FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34C068F31CDB60210092E7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34C069511CDB64EA0092E7FC /* Note+CoreDataProperties.m in Sources */,
+				34C0694F1CDB64EA0092E7FC /* Folder+CoreDataProperties.m in Sources */,
+				34C069231CDB61480092E7FC /* FolderViewController.m in Sources */,
+				34C0692F1CDB61A80092E7FC /* AddNoteViewController.m in Sources */,
+				34C069351CDB621B0092E7FC /* FolderViewCell.m in Sources */,
+				34C069521CDB64EA0092E7FC /* Note.m in Sources */,
+				34C0692C1CDB619F0092E7FC /* DetailNoteViewController.m in Sources */,
+				34C069381CDB622F0092E7FC /* AddFolderView.m in Sources */,
+				34C069081CDB60210092E7FC /* Note_project_CoreData.xcdatamodeld in Sources */,
+				34C069501CDB64EA0092E7FC /* Folder.m in Sources */,
+				34C068FC1CDB60210092E7FC /* main.m in Sources */,
+				34C069201CDB60510092E7FC /* AppDelegate.m in Sources */,
+				34C069321CDB61D20092E7FC /* HeaderReusableView.m in Sources */,
+				34C069261CDB61640092E7FC /* NoteListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		34C069031CDB60210092E7FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C069041CDB60210092E7FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34C0690B1CDB60210092E7FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34C0690C1CDB60210092E7FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34C0690F1CDB60210092E7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34C069101CDB60210092E7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34C069121CDB60210092E7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Note_project_CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.Note-project-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34C069131CDB60210092E7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Note_project_CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lanou3g.Note-project-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34C068F21CDB60210092E7FC /* Build configuration list for PBXProject "Note_project_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C0690F1CDB60210092E7FC /* Debug */,
+				34C069101CDB60210092E7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34C069111CDB60210092E7FC /* Build configuration list for PBXNativeTarget "Note_project_CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34C069121CDB60210092E7FC /* Debug */,
+				34C069131CDB60210092E7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		34C069061CDB60210092E7FC /* Note_project_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				34C069531CDB92910092E7FC /* Note_project_CoreData 2.xcdatamodel */,
+				34C069071CDB60210092E7FC /* Note_project_CoreData.xcdatamodel */,
+			);
+			currentVersion = 34C069071CDB60210092E7FC /* Note_project_CoreData.xcdatamodel */;
+			path = Note_project_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 34C068EF1CDB60210092E7FC /* Project object */;
+}

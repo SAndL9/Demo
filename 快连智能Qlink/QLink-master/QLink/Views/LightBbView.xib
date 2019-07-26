@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6vo-G0-cR9" customClass="LightBbView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QLy-VU-9tA">
+                    <rect key="frame" x="20" y="0.0" width="66" height="113"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sw1_nav.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gih-cM-he3">
+                            <rect key="frame" x="0.0" y="0.0" width="66" height="24"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="灯光控制器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4Z-9U-9Ex">
+                            <rect key="frame" x="0.0" y="0.0" width="66" height="24"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7o-xa-bxx" customClass="OrderButton">
+                            <rect key="frame" x="0.0" y="24" width="66" height="45"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" backgroundImage="sw1_top_off.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="sw1_top_on.png"/>
+                            <connections>
+                                <action selector="btnPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="Sfi-gV-ff9"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TRa-3V-maq" customClass="OrderButton">
+                            <rect key="frame" x="0.0" y="68" width="66" height="45"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" backgroundImage="sw1_bottom_off.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted" backgroundImage="sw1_bottom_on.png"/>
+                            <connections>
+                                <action selector="btnPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="HFY-WJ-hAm"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="light_bb_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAQ-fN-q1n">
+                    <rect key="frame" x="94" y="0.0" width="215" height="114"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3XJ-Hi-Q47" customClass="OrderButton">
+                    <rect key="frame" x="105" y="14" width="45" height="41"/>
+                    <state key="normal" backgroundImage="light_bb_up.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnLightPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="osf-Qr-NmU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYa-es-brR" customClass="OrderButton">
+                    <rect key="frame" x="105" y="58" width="45" height="41"/>
+                    <state key="normal" backgroundImage="light_bb_down.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnLightPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="MoG-kV-Qk6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iYf-qN-5T4" customClass="OrderButton">
+                    <rect key="frame" x="160" y="16" width="43" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="light_bb_fangkuai.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnColorPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="rep-WK-RFF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y19-hq-d1X" customClass="OrderButton">
+                    <rect key="frame" x="205" y="16" width="43" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="light_bb_fangkuai.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnColorPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="gxo-BQ-81g"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w9T-kK-vZ2" customClass="OrderButton">
+                    <rect key="frame" x="249" y="16" width="43" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="light_bb_fangkuai.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnColorPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="yzZ-fw-LbH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10z-xW-Te2" customClass="OrderButton">
+                    <rect key="frame" x="160" y="56" width="43" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="light_bb_fangkuai.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnColorPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="Fdc-ak-DZc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="105" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOk-7v-vO3" customClass="OrderButton">
+                    <rect key="frame" x="205" y="56" width="43" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="light_bb_fangkuai.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnColorPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="J5U-Fw-LGJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="106" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAd-zC-uf7" customClass="OrderButton">
+                    <rect key="frame" x="249" y="56" width="43" height="37"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="light_bb_fangkuai.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnColorPressed:" destination="6vo-G0-cR9" eventType="touchUpInside" id="Vy7-wh-Kje"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnDown" destination="YYa-es-brR" id="k4o-an-OxT"/>
+                <outlet property="btnFK1" destination="iYf-qN-5T4" id="uHQ-f4-p0R"/>
+                <outlet property="btnFK2" destination="y19-hq-d1X" id="hGC-VD-RR1"/>
+                <outlet property="btnFK3" destination="w9T-kK-vZ2" id="qZC-lI-Xx9"/>
+                <outlet property="btnFK4" destination="10z-xW-Te2" id="31f-Sr-jpG"/>
+                <outlet property="btnFK5" destination="XOk-7v-vO3" id="q0m-Uu-7UY"/>
+                <outlet property="btnFK6" destination="PAd-zC-uf7" id="alr-j0-Dde"/>
+                <outlet property="btnOff" destination="TRa-3V-maq" id="sOi-7Y-H74"/>
+                <outlet property="btnOn" destination="b7o-xa-bxx" id="oAK-el-g8c"/>
+                <outlet property="btnUp" destination="3XJ-Hi-Q47" id="0LE-zA-GAn"/>
+                <outlet property="lTitle" destination="u4Z-9U-9Ex" id="hRm-Jk-jMs"/>
+                <outlet property="vSw" destination="QLy-VU-9tA" id="GoF-Fa-fxw"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="light_bb_bg.png" width="430" height="228"/>
+        <image name="light_bb_down.png" width="45" height="41"/>
+        <image name="light_bb_fangkuai.png" width="43" height="37"/>
+        <image name="light_bb_up.png" width="45" height="41"/>
+        <image name="sw1_bottom_off.png" width="66" height="51"/>
+        <image name="sw1_bottom_on.png" width="66" height="51"/>
+        <image name="sw1_nav.png" width="66" height="24"/>
+        <image name="sw1_top_off.png" width="66" height="45"/>
+        <image name="sw1_top_on.png" width="66" height="45"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

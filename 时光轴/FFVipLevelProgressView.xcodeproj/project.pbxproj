@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0E7D3BFF35581C8A31155D /* libPods-FFVipLevelProgressViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC43DE82704E852A1F6D8B2 /* libPods-FFVipLevelProgressViewTests.a */; };
+		50B0EDA41DB9D32400BF34C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDA31DB9D32400BF34C3 /* main.m */; };
+		50B0EDA71DB9D32400BF34C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDA61DB9D32400BF34C3 /* AppDelegate.m */; };
+		50B0EDAA1DB9D32400BF34C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDA91DB9D32400BF34C3 /* ViewController.m */; };
+		50B0EDAD1DB9D32400BF34C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B0EDAB1DB9D32400BF34C3 /* Main.storyboard */; };
+		50B0EDAF1DB9D32400BF34C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B0EDAE1DB9D32400BF34C3 /* Assets.xcassets */; };
+		50B0EDB21DB9D32400BF34C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B0EDB01DB9D32400BF34C3 /* LaunchScreen.storyboard */; };
+		50B0EDBD1DB9D32400BF34C3 /* FFVipLevelProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDBC1DB9D32400BF34C3 /* FFVipLevelProgressViewTests.m */; };
+		50B0EDC81DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDC71DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.m */; };
+		50B0EDDE1DB9D37700BF34C3 /* FFLntegralView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDD71DB9D37700BF34C3 /* FFLntegralView.m */; };
+		50B0EDDF1DB9D37700BF34C3 /* FFMemberCenterHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDD91DB9D37700BF34C3 /* FFMemberCenterHeadView.m */; };
+		50B0EDE01DB9D37700BF34C3 /* FFNumberScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDDB1DB9D37700BF34C3 /* FFNumberScrollView.m */; };
+		50B0EDE11DB9D37700BF34C3 /* FFUserLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDDD1DB9D37700BF34C3 /* FFUserLevelView.m */; };
+		50B0EDE41DB9D49A00BF34C3 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDE31DB9D49A00BF34C3 /* UIView+Extension.m */; };
+		50B0EDE71DB9D4EF00BF34C3 /* FFRectangleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B0EDE61DB9D4EF00BF34C3 /* FFRectangleProgressView.m */; };
+		862216E1EE4B89CE248B65B5 /* libPods-FFVipLevelProgressView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5C511EB990C98ED23D8F73 /* libPods-FFVipLevelProgressView.a */; };
+		C038290D929E1D37A8B6FC96 /* libPods-FFVipLevelProgressViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067F0096551F542802F11D04 /* libPods-FFVipLevelProgressViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50B0EDB91DB9D32400BF34C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B0ED971DB9D32400BF34C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B0ED9E1DB9D32400BF34C3;
+			remoteInfo = FFVipLevelProgressView;
+		};
+		50B0EDC41DB9D32400BF34C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50B0ED971DB9D32400BF34C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50B0ED9E1DB9D32400BF34C3;
+			remoteInfo = FFVipLevelProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067F0096551F542802F11D04 /* libPods-FFVipLevelProgressViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFVipLevelProgressViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		343AFAA168ABCFBCCCD80C9B /* Pods-FFVipLevelProgressView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFVipLevelProgressView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFVipLevelProgressView/Pods-FFVipLevelProgressView.debug.xcconfig"; sourceTree = "<group>"; };
+		50B0ED9F1DB9D32400BF34C3 /* FFVipLevelProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFVipLevelProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B0EDA31DB9D32400BF34C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50B0EDA51DB9D32400BF34C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50B0EDA61DB9D32400BF34C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50B0EDA81DB9D32400BF34C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50B0EDA91DB9D32400BF34C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50B0EDAC1DB9D32400BF34C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50B0EDAE1DB9D32400BF34C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50B0EDB11DB9D32400BF34C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50B0EDB31DB9D32400BF34C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B0EDB81DB9D32400BF34C3 /* FFVipLevelProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFVipLevelProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B0EDBC1DB9D32400BF34C3 /* FFVipLevelProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFVipLevelProgressViewTests.m; sourceTree = "<group>"; };
+		50B0EDBE1DB9D32400BF34C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B0EDC31DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFVipLevelProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B0EDC71DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFVipLevelProgressViewUITests.m; sourceTree = "<group>"; };
+		50B0EDC91DB9D32400BF34C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B0EDD61DB9D37700BF34C3 /* FFLntegralView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFLntegralView.h; sourceTree = "<group>"; };
+		50B0EDD71DB9D37700BF34C3 /* FFLntegralView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFLntegralView.m; sourceTree = "<group>"; };
+		50B0EDD81DB9D37700BF34C3 /* FFMemberCenterHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFMemberCenterHeadView.h; sourceTree = "<group>"; };
+		50B0EDD91DB9D37700BF34C3 /* FFMemberCenterHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFMemberCenterHeadView.m; sourceTree = "<group>"; };
+		50B0EDDA1DB9D37700BF34C3 /* FFNumberScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFNumberScrollView.h; sourceTree = "<group>"; };
+		50B0EDDB1DB9D37700BF34C3 /* FFNumberScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFNumberScrollView.m; sourceTree = "<group>"; };
+		50B0EDDC1DB9D37700BF34C3 /* FFUserLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFUserLevelView.h; sourceTree = "<group>"; };
+		50B0EDDD1DB9D37700BF34C3 /* FFUserLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFUserLevelView.m; sourceTree = "<group>"; };
+		50B0EDE21DB9D49A00BF34C3 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		50B0EDE31DB9D49A00BF34C3 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		50B0EDE51DB9D4EF00BF34C3 /* FFRectangleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFRectangleProgressView.h; sourceTree = "<group>"; };
+		50B0EDE61DB9D4EF00BF34C3 /* FFRectangleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFRectangleProgressView.m; sourceTree = "<group>"; };
+		5F286FF9E57B4CBEB8EBCBFD /* Pods-FFVipLevelProgressViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFVipLevelProgressViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFVipLevelProgressViewTests/Pods-FFVipLevelProgressViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CC0AC13ED19AFE3AE8FF1A4 /* Pods-FFVipLevelProgressViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFVipLevelProgressViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFVipLevelProgressViewUITests/Pods-FFVipLevelProgressViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95FF726DD282409389C6F326 /* Pods-FFVipLevelProgressView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFVipLevelProgressView.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFVipLevelProgressView/Pods-FFVipLevelProgressView.release.xcconfig"; sourceTree = "<group>"; };
+		B3125C4D10B3E743919744C8 /* Pods-FFVipLevelProgressViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFVipLevelProgressViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFVipLevelProgressViewUITests/Pods-FFVipLevelProgressViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5C511EB990C98ED23D8F73 /* libPods-FFVipLevelProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFVipLevelProgressView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC43DE82704E852A1F6D8B2 /* libPods-FFVipLevelProgressViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FFVipLevelProgressViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA420F0E2815EA29972F9B15 /* Pods-FFVipLevelProgressViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFVipLevelProgressViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFVipLevelProgressViewTests/Pods-FFVipLevelProgressViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B0ED9C1DB9D32400BF34C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				862216E1EE4B89CE248B65B5 /* libPods-FFVipLevelProgressView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B0EDB51DB9D32400BF34C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0E7D3BFF35581C8A31155D /* libPods-FFVipLevelProgressViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B0EDC01DB9D32400BF34C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C038290D929E1D37A8B6FC96 /* libPods-FFVipLevelProgressViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50B0ED961DB9D32400BF34C3 = {
+			isa = PBXGroup;
+			children = (
+				50B0EDA11DB9D32400BF34C3 /* FFVipLevelProgressView */,
+				50B0EDBB1DB9D32400BF34C3 /* FFVipLevelProgressViewTests */,
+				50B0EDC61DB9D32400BF34C3 /* FFVipLevelProgressViewUITests */,
+				50B0EDA01DB9D32400BF34C3 /* Products */,
+				EF2A228D8C74D49C4B5EDCC6 /* Pods */,
+				6D9F065592EE0C334701A576 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50B0EDA01DB9D32400BF34C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50B0ED9F1DB9D32400BF34C3 /* FFVipLevelProgressView.app */,
+				50B0EDB81DB9D32400BF34C3 /* FFVipLevelProgressViewTests.xctest */,
+				50B0EDC31DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50B0EDA11DB9D32400BF34C3 /* FFVipLevelProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				50B0EDD51DB9D37700BF34C3 /* MemberHeadView */,
+				50B0EDA51DB9D32400BF34C3 /* AppDelegate.h */,
+				50B0EDA61DB9D32400BF34C3 /* AppDelegate.m */,
+				50B0EDA81DB9D32400BF34C3 /* ViewController.h */,
+				50B0EDA91DB9D32400BF34C3 /* ViewController.m */,
+				50B0EDAB1DB9D32400BF34C3 /* Main.storyboard */,
+				50B0EDAE1DB9D32400BF34C3 /* Assets.xcassets */,
+				50B0EDB01DB9D32400BF34C3 /* LaunchScreen.storyboard */,
+				50B0EDB31DB9D32400BF34C3 /* Info.plist */,
+				50B0EDA21DB9D32400BF34C3 /* Supporting Files */,
+			);
+			path = FFVipLevelProgressView;
+			sourceTree = "<group>";
+		};
+		50B0EDA21DB9D32400BF34C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50B0EDA31DB9D32400BF34C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50B0EDBB1DB9D32400BF34C3 /* FFVipLevelProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				50B0EDBC1DB9D32400BF34C3 /* FFVipLevelProgressViewTests.m */,
+				50B0EDBE1DB9D32400BF34C3 /* Info.plist */,
+			);
+			path = FFVipLevelProgressViewTests;
+			sourceTree = "<group>";
+		};
+		50B0EDC61DB9D32400BF34C3 /* FFVipLevelProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50B0EDC71DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.m */,
+				50B0EDC91DB9D32400BF34C3 /* Info.plist */,
+			);
+			path = FFVipLevelProgressViewUITests;
+			sourceTree = "<group>";
+		};
+		50B0EDD51DB9D37700BF34C3 /* MemberHeadView */ = {
+			isa = PBXGroup;
+			children = (
+				50B0EDE51DB9D4EF00BF34C3 /* FFRectangleProgressView.h */,
+				50B0EDE61DB9D4EF00BF34C3 /* FFRectangleProgressView.m */,
+				50B0EDE21DB9D49A00BF34C3 /* UIView+Extension.h */,
+				50B0EDE31DB9D49A00BF34C3 /* UIView+Extension.m */,
+				50B0EDD61DB9D37700BF34C3 /* FFLntegralView.h */,
+				50B0EDD71DB9D37700BF34C3 /* FFLntegralView.m */,
+				50B0EDD81DB9D37700BF34C3 /* FFMemberCenterHeadView.h */,
+				50B0EDD91DB9D37700BF34C3 /* FFMemberCenterHeadView.m */,
+				50B0EDDA1DB9D37700BF34C3 /* FFNumberScrollView.h */,
+				50B0EDDB1DB9D37700BF34C3 /* FFNumberScrollView.m */,
+				50B0EDDC1DB9D37700BF34C3 /* FFUserLevelView.h */,
+				50B0EDDD1DB9D37700BF34C3 /* FFUserLevelView.m */,
+			);
+			path = MemberHeadView;
+			sourceTree = "<group>";
+		};
+		6D9F065592EE0C334701A576 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C511EB990C98ED23D8F73 /* libPods-FFVipLevelProgressView.a */,
+				ECC43DE82704E852A1F6D8B2 /* libPods-FFVipLevelProgressViewTests.a */,
+				067F0096551F542802F11D04 /* libPods-FFVipLevelProgressViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF2A228D8C74D49C4B5EDCC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				343AFAA168ABCFBCCCD80C9B /* Pods-FFVipLevelProgressView.debug.xcconfig */,
+				95FF726DD282409389C6F326 /* Pods-FFVipLevelProgressView.release.xcconfig */,
+				5F286FF9E57B4CBEB8EBCBFD /* Pods-FFVipLevelProgressViewTests.debug.xcconfig */,
+				FA420F0E2815EA29972F9B15 /* Pods-FFVipLevelProgressViewTests.release.xcconfig */,
+				B3125C4D10B3E743919744C8 /* Pods-FFVipLevelProgressViewUITests.debug.xcconfig */,
+				7CC0AC13ED19AFE3AE8FF1A4 /* Pods-FFVipLevelProgressViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50B0ED9E1DB9D32400BF34C3 /* FFVipLevelProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B0EDCC1DB9D32400BF34C3 /* Build configuration list for PBXNativeTarget "FFVipLevelProgressView" */;
+			buildPhases = (
+				7A7B7F17F1C01E615795556D /* [CP] Check Pods Manifest.lock */,
+				50B0ED9B1DB9D32400BF34C3 /* Sources */,
+				50B0ED9C1DB9D32400BF34C3 /* Frameworks */,
+				50B0ED9D1DB9D32400BF34C3 /* Resources */,
+				764DCC0F64060511B4F12EC5 /* [CP] Embed Pods Frameworks */,
+				849705AD0480B2AD3062EAF6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFVipLevelProgressView;
+			productName = FFVipLevelProgressView;
+			productReference = 50B0ED9F1DB9D32400BF34C3 /* FFVipLevelProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50B0EDB71DB9D32400BF34C3 /* FFVipLevelProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B0EDCF1DB9D32400BF34C3 /* Build configuration list for PBXNativeTarget "FFVipLevelProgressViewTests" */;
+			buildPhases = (
+				EDF8E184AE29282D0AD30729 /* [CP] Check Pods Manifest.lock */,
+				50B0EDB41DB9D32400BF34C3 /* Sources */,
+				50B0EDB51DB9D32400BF34C3 /* Frameworks */,
+				50B0EDB61DB9D32400BF34C3 /* Resources */,
+				F5143315D045FA9C1A32FEC5 /* [CP] Embed Pods Frameworks */,
+				62CCA68E1A0F8D8F1DBEF912 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B0EDBA1DB9D32400BF34C3 /* PBXTargetDependency */,
+			);
+			name = FFVipLevelProgressViewTests;
+			productName = FFVipLevelProgressViewTests;
+			productReference = 50B0EDB81DB9D32400BF34C3 /* FFVipLevelProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50B0EDC21DB9D32400BF34C3 /* FFVipLevelProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50B0EDD21DB9D32400BF34C3 /* Build configuration list for PBXNativeTarget "FFVipLevelProgressViewUITests" */;
+			buildPhases = (
+				B64E8EB60F4F3F4F6B749244 /* [CP] Check Pods Manifest.lock */,
+				50B0EDBF1DB9D32400BF34C3 /* Sources */,
+				50B0EDC01DB9D32400BF34C3 /* Frameworks */,
+				50B0EDC11DB9D32400BF34C3 /* Resources */,
+				F2E928F647F8D76C299E87DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50B0EDC51DB9D32400BF34C3 /* PBXTargetDependency */,
+			);
+			name = FFVipLevelProgressViewUITests;
+			productName = FFVipLevelProgressViewUITests;
+			productReference = 50B0EDC31DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50B0ED971DB9D32400BF34C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Mr.Yao;
+				TargetAttributes = {
+					50B0ED9E1DB9D32400BF34C3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = E854VUQ68Z;
+						ProvisioningStyle = Automatic;
+					};
+					50B0EDB71DB9D32400BF34C3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50B0ED9E1DB9D32400BF34C3;
+					};
+					50B0EDC21DB9D32400BF34C3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 50B0ED9E1DB9D32400BF34C3;
+					};
+				};
+			};
+			buildConfigurationList = 50B0ED9A1DB9D32400BF34C3 /* Build configuration list for PBXProject "FFVipLevelProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50B0ED961DB9D32400BF34C3;
+			productRefGroup = 50B0EDA01DB9D32400BF34C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50B0ED9E1DB9D32400BF34C3 /* FFVipLevelProgressView */,
+				50B0EDB71DB9D32400BF34C3 /* FFVipLevelProgressViewTests */,
+				50B0EDC21DB9D32400BF34C3 /* FFVipLevelProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50B0ED9D1DB9D32400BF34C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B0EDB21DB9D32400BF34C3 /* LaunchScreen.storyboard in Resources */,
+				50B0EDAF1DB9D32400BF34C3 /* Assets.xcassets in Resources */,
+				50B0EDAD1DB9D32400BF34C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B0EDB61DB9D32400BF34C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B0EDC11DB9D32400BF34C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62CCA68E1A0F8D8F1DBEF912 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFVipLevelProgressViewTests/Pods-FFVipLevelProgressViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764DCC0F64060511B4F12EC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFVipLevelProgressView/Pods-FFVipLevelProgressView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A7B7F17F1C01E615795556D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		849705AD0480B2AD3062EAF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFVipLevelProgressView/Pods-FFVipLevelProgressView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64E8EB60F4F3F4F6B749244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDF8E184AE29282D0AD30729 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2E928F647F8D76C299E87DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFVipLevelProgressViewUITests/Pods-FFVipLevelProgressViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5143315D045FA9C1A32FEC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FFVipLevelProgressViewTests/Pods-FFVipLevelProgressViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50B0ED9B1DB9D32400BF34C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B0EDAA1DB9D32400BF34C3 /* ViewController.m in Sources */,
+				50B0EDA71DB9D32400BF34C3 /* AppDelegate.m in Sources */,
+				50B0EDA41DB9D32400BF34C3 /* main.m in Sources */,
+				50B0EDDF1DB9D37700BF34C3 /* FFMemberCenterHeadView.m in Sources */,
+				50B0EDE01DB9D37700BF34C3 /* FFNumberScrollView.m in Sources */,
+				50B0EDDE1DB9D37700BF34C3 /* FFLntegralView.m in Sources */,
+				50B0EDE41DB9D49A00BF34C3 /* UIView+Extension.m in Sources */,
+				50B0EDE11DB9D37700BF34C3 /* FFUserLevelView.m in Sources */,
+				50B0EDE71DB9D4EF00BF34C3 /* FFRectangleProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B0EDB41DB9D32400BF34C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B0EDBD1DB9D32400BF34C3 /* FFVipLevelProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50B0EDBF1DB9D32400BF34C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B0EDC81DB9D32400BF34C3 /* FFVipLevelProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50B0EDBA1DB9D32400BF34C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B0ED9E1DB9D32400BF34C3 /* FFVipLevelProgressView */;
+			targetProxy = 50B0EDB91DB9D32400BF34C3 /* PBXContainerItemProxy */;
+		};
+		50B0EDC51DB9D32400BF34C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50B0ED9E1DB9D32400BF34C3 /* FFVipLevelProgressView */;
+			targetProxy = 50B0EDC41DB9D32400BF34C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50B0EDAB1DB9D32400BF34C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B0EDAC1DB9D32400BF34C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50B0EDB01DB9D32400BF34C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50B0EDB11DB9D32400BF34C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50B0EDCA1DB9D32400BF34C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50B0EDCB1DB9D32400BF34C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50B0EDCD1DB9D32400BF34C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 343AFAA168ABCFBCCCD80C9B /* Pods-FFVipLevelProgressView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E854VUQ68Z;
+				INFOPLIST_FILE = FFVipLevelProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFVipLevelProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50B0EDCE1DB9D32400BF34C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FF726DD282409389C6F326 /* Pods-FFVipLevelProgressView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E854VUQ68Z;
+				INFOPLIST_FILE = FFVipLevelProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFVipLevelProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50B0EDD01DB9D32400BF34C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F286FF9E57B4CBEB8EBCBFD /* Pods-FFVipLevelProgressViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFVipLevelProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFVipLevelProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFVipLevelProgressView.app/FFVipLevelProgressView";
+			};
+			name = Debug;
+		};
+		50B0EDD11DB9D32400BF34C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA420F0E2815EA29972F9B15 /* Pods-FFVipLevelProgressViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FFVipLevelProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFVipLevelProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFVipLevelProgressView.app/FFVipLevelProgressView";
+			};
+			name = Release;
+		};
+		50B0EDD31DB9D32400BF34C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3125C4D10B3E743919744C8 /* Pods-FFVipLevelProgressViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FFVipLevelProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFVipLevelProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFVipLevelProgressView;
+			};
+			name = Debug;
+		};
+		50B0EDD41DB9D32400BF34C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC0AC13ED19AFE3AE8FF1A4 /* Pods-FFVipLevelProgressViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FFVipLevelProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FF.FFVipLevelProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FFVipLevelProgressView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50B0ED9A1DB9D32400BF34C3 /* Build configuration list for PBXProject "FFVipLevelProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B0EDCA1DB9D32400BF34C3 /* Debug */,
+				50B0EDCB1DB9D32400BF34C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B0EDCC1DB9D32400BF34C3 /* Build configuration list for PBXNativeTarget "FFVipLevelProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B0EDCD1DB9D32400BF34C3 /* Debug */,
+				50B0EDCE1DB9D32400BF34C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B0EDCF1DB9D32400BF34C3 /* Build configuration list for PBXNativeTarget "FFVipLevelProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B0EDD01DB9D32400BF34C3 /* Debug */,
+				50B0EDD11DB9D32400BF34C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50B0EDD21DB9D32400BF34C3 /* Build configuration list for PBXNativeTarget "FFVipLevelProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50B0EDD31DB9D32400BF34C3 /* Debug */,
+				50B0EDD41DB9D32400BF34C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50B0ED971DB9D32400BF34C3 /* Project object */;
+}

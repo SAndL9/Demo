@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A41C6321DAB398A00DD0A48 /* 59.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5A41C6311DAB398A00DD0A48 /* 59.m4a */; };
+		6BF24C111D8066E6008AAE6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF24C101D8066E6008AAE6E /* main.m */; };
+		6BF24C141D8066E6008AAE6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF24C131D8066E6008AAE6E /* AppDelegate.m */; };
+		6BF24C171D8066E6008AAE6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF24C161D8066E6008AAE6E /* ViewController.m */; };
+		6BF24C1A1D8066E6008AAE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF24C181D8066E6008AAE6E /* Main.storyboard */; };
+		6BF24C1C1D8066E6008AAE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF24C1B1D8066E6008AAE6E /* Assets.xcassets */; };
+		6BF24C1F1D8066E6008AAE6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF24C1D1D8066E6008AAE6E /* LaunchScreen.storyboard */; };
+		6BF24C2A1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF24C291D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.m */; };
+		6BF24C351D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF24C341D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.m */; };
+		6BF24C431D80672D008AAE6E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF24C421D80672D008AAE6E /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BF24C261D8066E6008AAE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF24C041D8066E6008AAE6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF24C0B1D8066E6008AAE6E;
+			remoteInfo = HotTool_Shake_Bluetooth_ThinkChange;
+		};
+		6BF24C311D8066E6008AAE6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF24C041D8066E6008AAE6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF24C0B1D8066E6008AAE6E;
+			remoteInfo = HotTool_Shake_Bluetooth_ThinkChange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A41C6311DAB398A00DD0A48 /* 59.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 59.m4a; sourceTree = "<group>"; };
+		6BF24C0C1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotTool_Shake_Bluetooth_ThinkChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF24C101D8066E6008AAE6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BF24C121D8066E6008AAE6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BF24C131D8066E6008AAE6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BF24C151D8066E6008AAE6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BF24C161D8066E6008AAE6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BF24C191D8066E6008AAE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BF24C1B1D8066E6008AAE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BF24C1E1D8066E6008AAE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BF24C201D8066E6008AAE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF24C251D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotTool_Shake_Bluetooth_ThinkChangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF24C291D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotTool_Shake_Bluetooth_ThinkChangeTests.m; sourceTree = "<group>"; };
+		6BF24C2B1D8066E6008AAE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF24C301D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotTool_Shake_Bluetooth_ThinkChangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF24C341D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotTool_Shake_Bluetooth_ThinkChangeUITests.m; sourceTree = "<group>"; };
+		6BF24C361D8066E6008AAE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF24C421D80672D008AAE6E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF24C091D8066E6008AAE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF24C431D80672D008AAE6E /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF24C221D8066E6008AAE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF24C2D1D8066E6008AAE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF24C031D8066E6008AAE6E = {
+			isa = PBXGroup;
+			children = (
+				6BF24C421D80672D008AAE6E /* AudioToolbox.framework */,
+				6BF24C0E1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange */,
+				6BF24C281D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests */,
+				6BF24C331D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests */,
+				6BF24C0D1D8066E6008AAE6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF24C0D1D8066E6008AAE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF24C0C1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange.app */,
+				6BF24C251D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.xctest */,
+				6BF24C301D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF24C0E1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange */ = {
+			isa = PBXGroup;
+			children = (
+				6BF24C121D8066E6008AAE6E /* AppDelegate.h */,
+				6BF24C131D8066E6008AAE6E /* AppDelegate.m */,
+				6BF24C151D8066E6008AAE6E /* ViewController.h */,
+				6BF24C161D8066E6008AAE6E /* ViewController.m */,
+				5A41C6311DAB398A00DD0A48 /* 59.m4a */,
+				6BF24C181D8066E6008AAE6E /* Main.storyboard */,
+				6BF24C1B1D8066E6008AAE6E /* Assets.xcassets */,
+				6BF24C1D1D8066E6008AAE6E /* LaunchScreen.storyboard */,
+				6BF24C201D8066E6008AAE6E /* Info.plist */,
+				6BF24C0F1D8066E6008AAE6E /* Supporting Files */,
+			);
+			path = HotTool_Shake_Bluetooth_ThinkChange;
+			sourceTree = "<group>";
+		};
+		6BF24C0F1D8066E6008AAE6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF24C101D8066E6008AAE6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF24C281D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF24C291D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.m */,
+				6BF24C2B1D8066E6008AAE6E /* Info.plist */,
+			);
+			path = HotTool_Shake_Bluetooth_ThinkChangeTests;
+			sourceTree = "<group>";
+		};
+		6BF24C331D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF24C341D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.m */,
+				6BF24C361D8066E6008AAE6E /* Info.plist */,
+			);
+			path = HotTool_Shake_Bluetooth_ThinkChangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF24C0B1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF24C391D8066E6008AAE6E /* Build configuration list for PBXNativeTarget "HotTool_Shake_Bluetooth_ThinkChange" */;
+			buildPhases = (
+				6BF24C081D8066E6008AAE6E /* Sources */,
+				6BF24C091D8066E6008AAE6E /* Frameworks */,
+				6BF24C0A1D8066E6008AAE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HotTool_Shake_Bluetooth_ThinkChange;
+			productName = HotTool_Shake_Bluetooth_ThinkChange;
+			productReference = 6BF24C0C1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BF24C241D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF24C3C1D8066E6008AAE6E /* Build configuration list for PBXNativeTarget "HotTool_Shake_Bluetooth_ThinkChangeTests" */;
+			buildPhases = (
+				6BF24C211D8066E6008AAE6E /* Sources */,
+				6BF24C221D8066E6008AAE6E /* Frameworks */,
+				6BF24C231D8066E6008AAE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF24C271D8066E6008AAE6E /* PBXTargetDependency */,
+			);
+			name = HotTool_Shake_Bluetooth_ThinkChangeTests;
+			productName = HotTool_Shake_Bluetooth_ThinkChangeTests;
+			productReference = 6BF24C251D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BF24C2F1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF24C3F1D8066E6008AAE6E /* Build configuration list for PBXNativeTarget "HotTool_Shake_Bluetooth_ThinkChangeUITests" */;
+			buildPhases = (
+				6BF24C2C1D8066E6008AAE6E /* Sources */,
+				6BF24C2D1D8066E6008AAE6E /* Frameworks */,
+				6BF24C2E1D8066E6008AAE6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF24C321D8066E6008AAE6E /* PBXTargetDependency */,
+			);
+			name = HotTool_Shake_Bluetooth_ThinkChangeUITests;
+			productName = HotTool_Shake_Bluetooth_ThinkChangeUITests;
+			productReference = 6BF24C301D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF24C041D8066E6008AAE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "云之君兮鹏";
+				TargetAttributes = {
+					6BF24C0B1D8066E6008AAE6E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					6BF24C241D8066E6008AAE6E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6BF24C0B1D8066E6008AAE6E;
+					};
+					6BF24C2F1D8066E6008AAE6E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6BF24C0B1D8066E6008AAE6E;
+					};
+				};
+			};
+			buildConfigurationList = 6BF24C071D8066E6008AAE6E /* Build configuration list for PBXProject "HotTool_Shake_Bluetooth_ThinkChange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF24C031D8066E6008AAE6E;
+			productRefGroup = 6BF24C0D1D8066E6008AAE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF24C0B1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange */,
+				6BF24C241D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests */,
+				6BF24C2F1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF24C0A1D8066E6008AAE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A41C6321DAB398A00DD0A48 /* 59.m4a in Resources */,
+				6BF24C1F1D8066E6008AAE6E /* LaunchScreen.storyboard in Resources */,
+				6BF24C1C1D8066E6008AAE6E /* Assets.xcassets in Resources */,
+				6BF24C1A1D8066E6008AAE6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF24C231D8066E6008AAE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF24C2E1D8066E6008AAE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF24C081D8066E6008AAE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF24C171D8066E6008AAE6E /* ViewController.m in Sources */,
+				6BF24C141D8066E6008AAE6E /* AppDelegate.m in Sources */,
+				6BF24C111D8066E6008AAE6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF24C211D8066E6008AAE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF24C2A1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF24C2C1D8066E6008AAE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF24C351D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChangeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BF24C271D8066E6008AAE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF24C0B1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange */;
+			targetProxy = 6BF24C261D8066E6008AAE6E /* PBXContainerItemProxy */;
+		};
+		6BF24C321D8066E6008AAE6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF24C0B1D8066E6008AAE6E /* HotTool_Shake_Bluetooth_ThinkChange */;
+			targetProxy = 6BF24C311D8066E6008AAE6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BF24C181D8066E6008AAE6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF24C191D8066E6008AAE6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BF24C1D1D8066E6008AAE6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF24C1E1D8066E6008AAE6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF24C371D8066E6008AAE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BF24C381D8066E6008AAE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BF24C3A1D8066E6008AAE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HotTool_Shake_Bluetooth_ThinkChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Small-SuperMan.HotTool-Shake-Bluetooth-ThinkChange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BF24C3B1D8066E6008AAE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HotTool_Shake_Bluetooth_ThinkChange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Small-SuperMan.HotTool-Shake-Bluetooth-ThinkChange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BF24C3D1D8066E6008AAE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotTool_Shake_Bluetooth_ThinkChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Small-SuperMan.HotTool-Shake-Bluetooth-ThinkChangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotTool_Shake_Bluetooth_ThinkChange.app/HotTool_Shake_Bluetooth_ThinkChange";
+			};
+			name = Debug;
+		};
+		6BF24C3E1D8066E6008AAE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HotTool_Shake_Bluetooth_ThinkChangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Small-SuperMan.HotTool-Shake-Bluetooth-ThinkChangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HotTool_Shake_Bluetooth_ThinkChange.app/HotTool_Shake_Bluetooth_ThinkChange";
+			};
+			name = Release;
+		};
+		6BF24C401D8066E6008AAE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotTool_Shake_Bluetooth_ThinkChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Small-SuperMan.HotTool-Shake-Bluetooth-ThinkChangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotTool_Shake_Bluetooth_ThinkChange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6BF24C411D8066E6008AAE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HotTool_Shake_Bluetooth_ThinkChangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Small-SuperMan.HotTool-Shake-Bluetooth-ThinkChangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HotTool_Shake_Bluetooth_ThinkChange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF24C071D8066E6008AAE6E /* Build configuration list for PBXProject "HotTool_Shake_Bluetooth_ThinkChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF24C371D8066E6008AAE6E /* Debug */,
+				6BF24C381D8066E6008AAE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF24C391D8066E6008AAE6E /* Build configuration list for PBXNativeTarget "HotTool_Shake_Bluetooth_ThinkChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF24C3A1D8066E6008AAE6E /* Debug */,
+				6BF24C3B1D8066E6008AAE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF24C3C1D8066E6008AAE6E /* Build configuration list for PBXNativeTarget "HotTool_Shake_Bluetooth_ThinkChangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF24C3D1D8066E6008AAE6E /* Debug */,
+				6BF24C3E1D8066E6008AAE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF24C3F1D8066E6008AAE6E /* Build configuration list for PBXNativeTarget "HotTool_Shake_Bluetooth_ThinkChangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF24C401D8066E6008AAE6E /* Debug */,
+				6BF24C411D8066E6008AAE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF24C041D8066E6008AAE6E /* Project object */;
+}

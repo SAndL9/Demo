@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>test</key>
+	<string>device_串口</string>
+	<key>test1</key>
+	<string>device_时序电源</string>
+	<key>lightled</key>
+	<string>device_调光模块</string>
+	<key>netpro</key>
+	<string>device_调光模块</string>
+	<key>lightcolor</key>
+	<string>device_继电器</string>
+	<key>swichpower</key>
+	<string>device_继电器</string>
+	<key>rs232or485</key>
+	<string>device_继电器</string>
+	<key>ir</key>
+	<string>device_红外</string>
+</dict>
+</plist>

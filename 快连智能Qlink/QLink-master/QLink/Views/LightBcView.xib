@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2zw-tJ-qLM" customClass="LightBcView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="113"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="TDh-JV-3AX">
+                    <rect key="frame" x="20" y="0.0" width="66" height="113"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sw1_nav.png" id="GUD-cj-MHv">
+                            <rect key="frame" x="0.0" y="0.0" width="66" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="彩色可调照明" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CET-Xy-h9H">
+                            <rect key="frame" x="0.0" y="0.0" width="66" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GXd-f3-Kd8" customClass="OrderButton">
+                            <rect key="frame" x="0.0" y="24" width="66" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" backgroundImage="sw1_top_off.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnPressed:" destination="2zw-tJ-qLM" eventType="touchUpInside" id="aSt-pS-TCA"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Cgh-mD-1ok" customClass="OrderButton">
+                            <rect key="frame" x="0.0" y="68" width="66" height="45"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" backgroundImage="sw1_bottom_off.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnPressed:" destination="2zw-tJ-qLM" eventType="touchUpInside" id="LC7-7l-eoO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="light_br.png" id="cDX-kb-tcm">
+                    <rect key="frame" x="94" y="12" width="206" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="light_co.png" id="oRd-7C-nJM">
+                    <rect key="frame" x="94" y="68" width="206" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" continuous="NO" id="S8q-v4-nBq" customClass="MySlider">
+                    <rect key="frame" x="94" y="17" width="185" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="minimumTrackTintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="thumbTintColor" red="0.56862747669219971" green="0.5372549295425415" blue="0.4745098352432251" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <action selector="brSliderValueChanged:" destination="2zw-tJ-qLM" eventType="valueChanged" id="GF9-zD-qLn"/>
+                    </connections>
+                </slider>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" continuous="NO" id="pvr-eI-La3" customClass="MySlider">
+                    <rect key="frame" x="94" y="73" width="185" height="31"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="minimumTrackTintColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="maximumTrackTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="thumbTintColor" red="0.729411780834198" green="0.70980393886566162" blue="0.66274511814117432" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <action selector="coSliderValueChanged:" destination="2zw-tJ-qLM" eventType="valueChanged" id="scl-YJ-lJQ"/>
+                    </connections>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnBr" destination="S8q-v4-nBq" id="kuL-pE-xVp"/>
+                <outlet property="btnCo" destination="pvr-eI-La3" id="xiN-lF-gO8"/>
+                <outlet property="btnOFF" destination="Cgh-mD-1ok" id="L1o-10-Mmp"/>
+                <outlet property="btnOn" destination="GXd-f3-Kd8" id="hzS-Hv-hNl"/>
+                <outlet property="lTitle" destination="CET-Xy-h9H" id="wcs-4r-hcH"/>
+                <outlet property="vSw" destination="TDh-JV-3AX" id="uFe-HW-XkH"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="light_br.png" width="206" height="35"/>
+        <image name="light_co.png" width="206" height="35"/>
+        <image name="sw1_bottom_off.png" width="66" height="51"/>
+        <image name="sw1_nav.png" width="66" height="24"/>
+        <image name="sw1_top_off.png" width="66" height="45"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

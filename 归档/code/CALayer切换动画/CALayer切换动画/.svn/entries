@@ -1,0 +1,140 @@
+10
+
+dir
+0
+file://localhost/Users/xuying/Desktop/svn/CALayer%E5%88%87%E6%8D%A2%E5%8A%A8%E7%94%BB/CALayer%E5%88%87%E6%8D%A2%E5%8A%A8%E7%94%BB
+file://localhost/Users/xuying/Desktop/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7e829376-f733-4f4b-82fa-053848a508dc
+
+main.m
+file
+
+
+
+add
+
+SecondViewController.h
+file
+
+
+
+add
+
+AppDelegate.h
+file
+
+
+
+add
+
+Default@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+SecondViewController.m
+file
+
+
+
+add
+
+AppDelegate.m
+file
+
+
+
+add
+
+Default.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+en.lproj
+dir
+
+
+
+add
+
+RootViewController.h
+file
+
+
+
+add
+
+CALayer切换动画-Info.plist
+file
+
+
+
+add
+
+Default-568h@2x.png
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+CALayer切换动画-Prefix.pch
+file
+
+
+
+add
+
+RootViewController.m
+file
+
+
+
+add
+

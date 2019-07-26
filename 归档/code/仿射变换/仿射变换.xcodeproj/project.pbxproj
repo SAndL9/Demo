@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D2282461785526800804330 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2282451785526800804330 /* UIKit.framework */; };
+		2D2282481785526800804330 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2282471785526800804330 /* Foundation.framework */; };
+		2D22824A1785526800804330 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2282491785526800804330 /* CoreGraphics.framework */; };
+		2D2282501785526800804330 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D22824E1785526800804330 /* InfoPlist.strings */; };
+		2D2282521785526800804330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2282511785526800804330 /* main.m */; };
+		2D2282561785526800804330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2282551785526800804330 /* AppDelegate.m */; };
+		2D2282581785526800804330 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2282571785526800804330 /* Default.png */; };
+		2D22825A1785526800804330 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D2282591785526800804330 /* Default@2x.png */; };
+		2D22825C1785526800804330 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D22825B1785526800804330 /* Default-568h@2x.png */; };
+		2D2282641785527D00804330 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2282631785527D00804330 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D2282421785526800804330 /* 仿射变换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿射变换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2282451785526800804330 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2D2282471785526800804330 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2D2282491785526800804330 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2D22824D1785526800804330 /* 仿射变换-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "仿射变换-Info.plist"; sourceTree = "<group>"; };
+		2D22824F1785526800804330 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D2282511785526800804330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D2282531785526800804330 /* 仿射变换-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "仿射变换-Prefix.pch"; sourceTree = "<group>"; };
+		2D2282541785526800804330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D2282551785526800804330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D2282571785526800804330 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2D2282591785526800804330 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2D22825B1785526800804330 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2D2282621785527D00804330 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2D2282631785527D00804330 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D22823F1785526800804330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2282461785526800804330 /* UIKit.framework in Frameworks */,
+				2D2282481785526800804330 /* Foundation.framework in Frameworks */,
+				2D22824A1785526800804330 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D2282391785526800804330 = {
+			isa = PBXGroup;
+			children = (
+				2D22824B1785526800804330 /* 仿射变换 */,
+				2D2282441785526800804330 /* Frameworks */,
+				2D2282431785526800804330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D2282431785526800804330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D2282421785526800804330 /* 仿射变换.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D2282441785526800804330 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D2282451785526800804330 /* UIKit.framework */,
+				2D2282471785526800804330 /* Foundation.framework */,
+				2D2282491785526800804330 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D22824B1785526800804330 /* 仿射变换 */ = {
+			isa = PBXGroup;
+			children = (
+				2D2282541785526800804330 /* AppDelegate.h */,
+				2D2282551785526800804330 /* AppDelegate.m */,
+				2D2282621785527D00804330 /* RootViewController.h */,
+				2D2282631785527D00804330 /* RootViewController.m */,
+				2D22824C1785526800804330 /* Supporting Files */,
+			);
+			path = "仿射变换";
+			sourceTree = "<group>";
+		};
+		2D22824C1785526800804330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D22824D1785526800804330 /* 仿射变换-Info.plist */,
+				2D22824E1785526800804330 /* InfoPlist.strings */,
+				2D2282511785526800804330 /* main.m */,
+				2D2282531785526800804330 /* 仿射变换-Prefix.pch */,
+				2D2282571785526800804330 /* Default.png */,
+				2D2282591785526800804330 /* Default@2x.png */,
+				2D22825B1785526800804330 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D2282411785526800804330 /* 仿射变换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D22825F1785526800804330 /* Build configuration list for PBXNativeTarget "仿射变换" */;
+			buildPhases = (
+				2D22823E1785526800804330 /* Sources */,
+				2D22823F1785526800804330 /* Frameworks */,
+				2D2282401785526800804330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿射变换";
+			productName = "仿射变换";
+			productReference = 2D2282421785526800804330 /* 仿射变换.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D22823A1785526800804330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "徐赢";
+			};
+			buildConfigurationList = 2D22823D1785526800804330 /* Build configuration list for PBXProject "仿射变换" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2D2282391785526800804330;
+			productRefGroup = 2D2282431785526800804330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D2282411785526800804330 /* 仿射变换 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D2282401785526800804330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2282501785526800804330 /* InfoPlist.strings in Resources */,
+				2D2282581785526800804330 /* Default.png in Resources */,
+				2D22825A1785526800804330 /* Default@2x.png in Resources */,
+				2D22825C1785526800804330 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D22823E1785526800804330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D2282521785526800804330 /* main.m in Sources */,
+				2D2282561785526800804330 /* AppDelegate.m in Sources */,
+				2D2282641785527D00804330 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D22824E1785526800804330 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D22824F1785526800804330 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D22825D1785526800804330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D22825E1785526800804330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D2282601785526800804330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "仿射变换/仿射变换-Prefix.pch";
+				INFOPLIST_FILE = "仿射变换/仿射变换-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D2282611785526800804330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "仿射变换/仿射变换-Prefix.pch";
+				INFOPLIST_FILE = "仿射变换/仿射变换-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D22823D1785526800804330 /* Build configuration list for PBXProject "仿射变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D22825D1785526800804330 /* Debug */,
+				2D22825E1785526800804330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D22825F1785526800804330 /* Build configuration list for PBXNativeTarget "仿射变换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D2282601785526800804330 /* Debug */,
+				2D2282611785526800804330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D22823A1785526800804330 /* Project object */;
+}

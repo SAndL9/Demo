@@ -1,0 +1,63 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "OrderButton.h"
+
+//执行的操作
+#define LOGIN @"login"
+#define ACTIONNULL @"NULL"
+#define ACTIONSETUP @"kfsetup"
+#define ACTIONSETUPZK @"setupzk"
+#define ACTIONSETUPZKOK @"izkok"
+#define ACTIONSETUPIP @"setupip"
+#define ACTIONSETUPIPOK @"setupipok"
+
+
+//请求次数
+#define NumberOfTimeout 3
+
+//文件名字
+#define DBNAME @"QLink.sqlite"
+//场景类型
+#define MACRO @"macro"
+//add 标识
+#define SANSANADDMACRO @"SANSAN_MACRO_ADD"
+#define SANSANADDDEVICE @"SANSAN_DEVICE_ADD"
+
+//字体大小
+#define FONTSIZE 14
+
+//处理文本框内容 padding
+#define IOS7_OR_LATER  ([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending)
+#define PADDINGLEFT IOS7_OR_LATER ? @"paddingLeft" : @"_paddingLeft"
+
+//全局变量Room属性名称
+#define Global_Room_Attr @"Global_Room_Attr"
+#define Global_Model_Attr @"Global_Model_Attr"
+#define Global_Model_IsAddSence @"Global_Model_IsAddSence"
+#define Model_Study @"Model_Study"//学习模式
+#define Model_ZKDOMAIN @"Model_ZkDomain"//中控模式
+#define Model_ZKIp @"Model_ZkIp"//中控模式
+#define Model_JJ @"Model_Jj"//紧急模式
+
+#define UDP_NAME @"udpSocket"
+
+//TODO:用于定义一个 局部 weakself
+#define define_weakself __weak __typeof(self)weakSelf = self
+
+
+

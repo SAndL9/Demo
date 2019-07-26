@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Device</key>
+	<array>
+		<string>ac</string>
+		<string>av</string>
+		<string>door</string>
+		<string>fs</string>
+		<string>light_1</string>
+		<string>light</string>
+		<string>ocpower</string>
+		<string>openclose</string>
+		<string>other</string>
+		<string>player</string>
+		<string>tv</string>
+		<string>tvbox</string>
+		<string>ty</string>
+		<string>windows</string>
+	</array>
+	<key>Sence</key>
+	<array>
+		<string>macro_回家</string>
+		<string>macro_机场</string>
+		<string>macro_起床</string>
+		<string>macro_上班</string>
+		<string>macro_上课</string>
+		<string>macro_送客</string>
+		<string>macro_外出</string>
+		<string>macro_下班</string>
+		<string>macro_下课</string>
+		<string>macro_休息</string>
+		<string>macro_音乐</string>
+		<string>macro_迎宾</string>
+		<string>macro_影院</string>
+		<string>macro</string>
+	</array>
+</dict>
+</plist>

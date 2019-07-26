@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="zBj-Jq-qYI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIK-P7-eCj">
+                                <rect key="frame" x="92" y="311" width="192" height="45"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="27"/>
+                                <state key="normal" title="添加一个菜单项"/>
+                                <connections>
+                                    <action selector="addMenuItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zVy-LA-sNK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNt-aA-p39">
+                                <rect key="frame" x="92" y="381" width="192" height="45"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="27"/>
+                                <state key="normal" title="更新所有菜单项"/>
+                                <connections>
+                                    <action selector="removeMenuItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Gt-6O-STw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="累计增加 0 项" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OL-5Q-WqO">
+                                <rect key="frame" x="105.5" y="226.5" width="164.5" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="( 同时增加个数取决于参数数组的大小 )" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WpK-oa-jGd">
+                                <rect key="frame" x="56" y="262" width="263" height="18"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WpK-oa-jGd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A2v-M5-vg7"/>
+                            <constraint firstItem="wNt-aA-p39" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="70" id="G69-2a-TOa"/>
+                            <constraint firstItem="cIK-P7-eCj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ill-FF-MS7"/>
+                            <constraint firstItem="1OL-5Q-WqO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UwA-Bz-d2F"/>
+                            <constraint firstItem="WpK-oa-jGd" firstAttribute="top" secondItem="1OL-5Q-WqO" secondAttribute="bottom" constant="3" id="XW3-ar-5td"/>
+                            <constraint firstItem="wNt-aA-p39" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aON-TO-ZDe"/>
+                            <constraint firstItem="cIK-P7-eCj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hMB-m4-k9H"/>
+                            <constraint firstItem="cIK-P7-eCj" firstAttribute="topMargin" secondItem="1OL-5Q-WqO" secondAttribute="bottom" constant="60" id="zKo-ab-ACg"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="bfY-RD-Cuh">
+                        <nil key="title"/>
+                        <leftBarButtonItems>
+                            <barButtonItem systemItem="add" id="KfY-S2-Gab">
+                                <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="0.0"/>
+                                <color key="tintColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="popMenuAdd:" destination="BYZ-38-t0r" id="Ulh-ag-5K7"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="action" id="IZy-EW-WbA">
+                                <inset key="imageInsets" minX="0.0" minY="6" maxX="1" maxY="2"/>
+                                <color key="tintColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="popMenuAction:" destination="BYZ-38-t0r" id="4r0-l0-IqR"/>
+                                </connections>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <button key="titleView" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8nU-am-ZYe">
+                            <rect key="frame" x="126" y="7" width="123" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                            <state key="normal" title=" 动态菜单">
+                                <color key="titleColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <rightBarButtonItems>
+                            <barButtonItem systemItem="organize" id="POI-DO-bZB">
+                                <inset key="imageInsets" minX="1" minY="6" maxX="1" maxY="-2"/>
+                                <color key="tintColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="popMenuOrganize:" destination="BYZ-38-t0r" id="aqc-6j-nTP"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="compose" id="IXU-w0-OJl">
+                                <inset key="imageInsets" minX="1" minY="5" maxX="1" maxY="1"/>
+                                <color key="tintColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="popMenuCompose:" destination="BYZ-38-t0r" id="3Y5-h7-4AM"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="numberLabel" destination="1OL-5Q-WqO" id="Xab-IF-4LB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="782" y="527"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QfX-TD-LkW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zBj-Jq-qYI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nTm-ew-DHf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iED-rW-nYG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="maA-NH-w25" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="70" y="527"/>
+        </scene>
+    </scenes>
+</document>
